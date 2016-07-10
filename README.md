@@ -10,7 +10,7 @@ To build the project, [**Java 8**](http://www.oracle.com/technetwork/java/javase
     
 Starting the server;
     
-    $ java -jar server-1.0-jar-with-dependencies.jar
+    $ java -jar target/order-server-1.0-jar-with-dependencies.jar
     
     // You should see a few logs and a message to show the server is now running
     
@@ -18,7 +18,7 @@ Starting the server;
 
 If the **PORT** system variable has not been set, the server defaults to port 8080. Otherwise, the server starts on the specified port.
 
-##Submitting an order
+##Making a delivery order
 Assuming the server is running on port 8080, new orders can be submitted via the **/detour** end point.
 
 New order can be assigned to people who have already been assigned other orders if;
