@@ -5,7 +5,7 @@ A prototype Java server to schedule delivery orders.
 To build the project, [**Java 8**](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and [**maven**](https://maven.apache.org/install.html) are required
 
     $ git clone https://github.com/lawkaringithi/order-delivery.git
-    $ cd order-delivery
+    $ cd order-delivery-server
     $ mvn package
     
 Starting the server;
