@@ -11,10 +11,14 @@ To build the project, [**Java 8**](http://www.oracle.com/technetwork/java/javase
 Starting the server;
     
     $ java -jar target/order-server-1.0-jar-with-dependencies.jar
+    $ ...
+    $ ...
     
-    // You should see a few logs and a message to show the server is now running
+You should see a few logs and a message to show the server is now running
     
-	Server running on port 8080
+    $ ...
+    $ ...
+    $ Server running on port 8080
 
 If the **PORT** system variable has not been set, the server defaults to port 8080. Otherwise, the server starts on the specified port.
 
