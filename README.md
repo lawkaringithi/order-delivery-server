@@ -1,7 +1,7 @@
-##Description
+## Description
 A prototype Java server to schedule delivery orders.
 
-##Running the server
+## Running the server
 To build the project, [**Java 8**](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and [**maven**](https://maven.apache.org/install.html) are required
 
     $ git clone https://github.com/lawkaringithi/order-delivery-server.git
@@ -18,7 +18,7 @@ Starting the server;
 
 If the **PORT** system variable has not been set, the server defaults to port 8080. Otherwise, the server starts on the specified port.
 
-##Making a delivery order
+## Making a delivery order
 Assuming the server is running on port 8080, new orders can be submitted via the **/detour** end point.
 
 New order can be assigned to people who have already been assigned other orders if;
@@ -39,7 +39,7 @@ For example, a delivery order from **Nebraska, USA** to **Kansas, USA** is assig
 	}
 	
 	
-##Querying orders
+## Querying orders
 Order querying can be done through **/orders** which returns all orders and to whom they have been assigned to (The **id** representing the assignee identity).
 
     http://localhost:8080/orders
@@ -59,7 +59,7 @@ Order querying can be done through **/orders** which returns all orders and to w
 	}
 	
 
-##Test
+## Test
 If an order is made from **iHub, Nairobi** (-1.2987187, 36.788576) to **Strathmore University, Madaraka** (-1.3089589, 36.8108885)
 
 **/orders** returns
